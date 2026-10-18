@@ -1,0 +1,403 @@
+{
+ "meta": {
+  "schema": 1,
+  "orgId": "org_demo",
+  "orgName": "演示公司（简批科技）",
+  "createdAt": "2026-10-04T15:21:15.408Z",
+  "roleTemplates": true,
+  "seededAt": "2026-10-04T15:21:15.827Z"
+ },
+ "users": [
+  {
+   "id": "u_bab7164fdfb7ccf7",
+   "orgId": "org_demo",
+   "account": "admin",
+   "name": "系统管理员",
+   "nameHant": "系統管理員",
+   "nameEn": "System Admin",
+   "role": "admin",
+   "department": "行政部",
+   "departmentHant": "行政部",
+   "departmentEn": "Admin",
+   "active": true,
+   "password": "scrypt$6b21b54f94b1ab59284d8e202ab5a78e$d39c0ee7d1e621c51003c3237792bdbf16f4f69d2ff6ab6ecf818cbf565d96cb",
+   "preferredLang": "zh-Hant",
+   "isDemo": true,
+   "createdAt": "2026-10-04T15:21:15.466Z"
+  },
+  {
+   "id": "u_c6fdc4e0f0e8418f",
+   "orgId": "org_demo",
+   "account": "caiwu",
+   "name": "陈美玲",
+   "nameHant": "陳美玲",
+   "nameEn": "Chan Mei Ling",
+   "role": "finance",
+   "department": "财务部",
+   "departmentHant": "財務部",
+   "departmentEn": "Finance",
+   "active": true,
+   "password": "scrypt$bf59adf0b4eeb30f7d08009bebdebc9a$4a14465bc0bb6cd868875c60a1609f81450c28d877aa36c6815fea3b7d84aa85",
+   "preferredLang": "zh-Hans",
+   "isDemo": true,
+   "createdAt": "2026-10-04T15:21:15.531Z"
+  },
+  {
+   "id": "u_56d0b21d798aea4d",
+   "orgId": "org_demo",
+   "account": "zhuguan",
+   "name": "王志刚",
+   "nameHant": "王志剛",
+   "nameEn": "Wong Chi Kong",
+   "role": "manager",
+   "department": "市场部",
+   "departmentHant": "市場部",
+   "departmentEn": "Marketing",
+   "active": true,
+   "password": "scrypt$124229fcdfe75479656e0b75c0fd50bc$6191d8aed8fa6cfc7a0b7516570fd6be25e8d8ed19b948546132dc66cbca28bb",
+   "preferredLang": "zh-Hans",
+   "isDemo": true,
+   "createdAt": "2026-10-04T15:21:15.593Z"
+  },
+  {
+   "id": "u_4704d93f40cc6223",
+   "orgId": "org_demo",
+   "account": "zhuguan2",
+   "name": "赵敏",
+   "nameHant": "趙敏",
+   "nameEn": "Chiu Man",
+   "role": "manager",
+   "department": "技术部",
+   "departmentHant": "技術部",
+   "departmentEn": "Engineering",
+   "active": true,
+   "password": "scrypt$a1c6e041c226c9d19095e85c33e3c875$260d61cc27f7157c900f0892c3348c2bb40ea3050c5cad0a79b0eca6f31f09cf",
+   "preferredLang": "zh-Hans",
+   "isDemo": true,
+   "createdAt": "2026-10-04T15:21:15.643Z"
+  },
+  {
+   "id": "u_d0e3327fdb4495e2",
+   "orgId": "org_demo",
+   "account": "laoban",
+   "name": "李国华",
+   "nameHant": "李國華",
+   "nameEn": "Lee Kwok Wah",
+   "role": "boss",
+   "department": "总经办",
+   "departmentHant": "總經辦",
+   "departmentEn": "Executive Office",
+   "active": true,
+   "password": "scrypt$274c95c30d3b9e5eb8d145508c17439f$6132f3c1737b851d20dec5fb8a9e5b8d5aaa3a3cace1273af30ca9213f17247a",
+   "preferredLang": "zh-Hans",
+   "isDemo": true,
+   "createdAt": "2026-10-04T15:21:15.688Z"
+  },
+  {
+   "id": "u_fd067ea2e277b54b",
+   "orgId": "org_demo",
+   "account": "yg01",
+   "name": "张小明",
+   "nameHant": "張小明",
+   "nameEn": "Cheung Siu Ming",
+   "role": "employee",
+   "department": "市场部",
+   "departmentHant": "市場部",
+   "departmentEn": "Marketing",
+   "active": true,
+   "password": "scrypt$b7f090e9a37ca1b6d78c736ebe75bc38$574491e6fc9940ba4dc8dfdb716ff37180c908b30590222ea85715f130cf4b66",
+   "preferredLang": "zh-Hans",
+   "isDemo": true,
+   "createdAt": "2026-10-04T15:21:15.734Z"
+  },
+  {
+   "id": "u_8eb24305abaa24d6",
+   "orgId": "org_demo",
+   "account": "yg02",
+   "name": "陈大文",
+   "nameHant": "陳大文",
+   "nameEn": "Chan Tai Man",
+   "role": "employee",
+   "department": "技术部",
+   "departmentHant": "技術部",
+   "departmentEn": "Engineering",
+   "active": true,
+   "password": "scrypt$1212a0b9603c08dea2ea00938e75f558$09eb7c739315c183b90be6af1a2a78a0cef0417c58810e7754e6e078e4550050",
+   "preferredLang": "zh-Hans",
+   "isDemo": true,
+   "createdAt": "2026-10-04T15:21:15.779Z"
+  },
+  {
+   "id": "u_92dccce32d9bc46a",
+   "orgId": "org_demo",
+   "account": "yg03",
+   "name": "林小雅",
+   "nameHant": "林小雅",
+   "nameEn": "Lam Siu Nga",
+   "role": "employee",
+   "department": "行政部",
+   "departmentHant": "行政部",
+   "departmentEn": "Admin",
+   "active": true,
+   "password": "scrypt$b632cc2911842803b0d66309b9f978cc$e1a118ccbd60e53c656ea7dadb034b02a354adbfdf6bd5aad0ebf9734e5fd085",
+   "preferredLang": "zh-Hans",
+   "isDemo": true,
+   "createdAt": "2026-10-04T15:21:15.826Z"
+  }
+ ],
+ "categories": [
+  {
+   "code": "TRAVEL",
+   "name": "差旅费",
+   "nameHant": "差旅費",
+   "nameEn": "Travel",
+   "module": "expense",
+   "active": true
+  },
+  {
+   "code": "MEAL",
+   "name": "餐饮费",
+   "nameHant": "餐飲費",
+   "nameEn": "Meals",
+   "module": "expense",
+   "active": true
+  },
+  {
+   "code": "OFFICE",
+   "name": "办公用品",
+   "nameHant": "辦公用品",
+   "nameEn": "Office supplies",
+   "module": "expense",
+   "active": true
+  },
+  {
+   "code": "TRANSPORT",
+   "name": "交通费",
+   "nameHant": "交通費",
+   "nameEn": "Transport",
+   "module": "expense",
+   "active": true
+  },
+  {
+   "code": "ENTERTAIN",
+   "name": "客户招待",
+   "nameHant": "客戶招待",
+   "nameEn": "Client entertainment",
+   "module": "expense",
+   "active": true
+  },
+  {
+   "code": "OTHER",
+   "name": "其他费用",
+   "nameHant": "其他費用",
+   "nameEn": "Other expenses",
+   "module": "expense",
+   "active": true
+  },
+  {
+   "code": "PURCHASE",
+   "name": "采购申请",
+   "nameHant": "採購申請",
+   "nameEn": "Purchase request",
+   "module": "matter",
+   "active": true
+  },
+  {
+   "code": "TRIP",
+   "name": "差旅申请",
+   "nameHant": "差旅申請",
+   "nameEn": "Travel request",
+   "module": "matter",
+   "active": true
+  },
+  {
+   "code": "POLICY",
+   "name": "公司制度",
+   "nameHant": "公司制度",
+   "nameEn": "Company policy",
+   "module": "matter",
+   "active": true
+  },
+  {
+   "code": "MATTER_OTHER",
+   "name": "其他事项",
+   "nameHant": "其他事項",
+   "nameEn": "Other requests",
+   "module": "matter",
+   "active": true
+  }
+ ],
+ "templates": [
+  {
+   "id": "tpl_f9052cc76adc8549",
+   "name": "报销默认流程（财务主管 → 负责人）",
+   "nameHant": "報銷預設流程（財務主管 → 負責人）",
+   "nameEn": "Expense claim — default (Finance → Approver)",
+   "module": "expense",
+   "categoryCode": null,
+   "active": true,
+   "updatedAt": "2026-10-04T15:21:15.827Z",
+   "steps": [
+    {
+     "id": "step_334aa389e17bf0a4",
+     "key": "s1",
+     "name": "财务主管初审",
+     "nameHant": "財務主管初審",
+     "nameEn": "Finance review",
+     "order": 1,
+     "mode": "any",
+     "roles": [
+      "finance"
+     ],
+     "approvers": []
+    },
+    {
+     "id": "step_9ede851423345617",
+     "key": "s2",
+     "name": "负责人终审",
+     "nameHant": "負責人終審",
+     "nameEn": "Final approval",
+     "order": 2,
+     "mode": "any",
+     "roles": [
+      "boss"
+     ],
+     "approvers": []
+    }
+   ]
+  },
+  {
+   "id": "tpl_2b306936b0554cb7",
+   "name": "事项默认流程（部门主管会签 → 财务负责人 → 老板终审）",
+   "nameHant": "事項預設流程（部門主管會簽 → 財務負責人 → 老闆終審）",
+   "nameEn": "Request — default (Dept. heads → Finance → CEO)",
+   "module": "matter",
+   "categoryCode": null,
+   "active": true,
+   "updatedAt": "2026-10-04T15:21:15.827Z",
+   "steps": [
+    {
+     "id": "step_2f2e478fe86f8de8",
+     "key": "s1",
+     "name": "部门主管会签",
+     "nameHant": "部門主管會簽",
+     "nameEn": "Department heads (co-sign)",
+     "order": 1,
+     "mode": "all",
+     "roles": [
+      "manager"
+     ],
+     "approvers": []
+    },
+    {
+     "id": "step_ff0afce00fedc94d",
+     "key": "s2",
+     "name": "财务负责人",
+     "nameHant": "財務負責人",
+     "nameEn": "Finance lead",
+     "order": 2,
+     "mode": "any",
+     "roles": [
+      "finance"
+     ],
+     "approvers": []
+    },
+    {
+     "id": "step_57271daf1c435a7d",
+     "key": "s3",
+     "name": "老板终审",
+     "nameHant": "老闆終審",
+     "nameEn": "CEO final approval",
+     "order": 3,
+     "mode": "any",
+     "roles": [
+      "boss"
+     ],
+     "approvers": []
+    }
+   ]
+  },
+  {
+   "id": "tpl_90ba987c2ee99572",
+   "name": "采购审批流程（部门主管会签 → 财务负责人 → 老板终审）",
+   "nameHant": "採購審批流程（部門主管會簽 → 財務負責人 → 老闆終審）",
+   "nameEn": "Purchase — approval flow (Dept. heads → Finance → CEO)",
+   "module": "matter",
+   "categoryCode": "PURCHASE",
+   "active": true,
+   "updatedAt": "2026-10-04T15:21:15.827Z",
+   "steps": [
+    {
+     "id": "step_8646fc60d540f026",
+     "key": "s1",
+     "name": "部门主管会签",
+     "nameHant": "部門主管會簽",
+     "nameEn": "Department heads (co-sign)",
+     "order": 1,
+     "mode": "all",
+     "roles": [
+      "manager"
+     ],
+     "approvers": []
+    },
+    {
+     "id": "step_3a61e1654b32830b",
+     "key": "s2",
+     "name": "财务负责人",
+     "nameHant": "財務負責人",
+     "nameEn": "Finance lead",
+     "order": 2,
+     "mode": "any",
+     "roles": [
+      "finance"
+     ],
+     "approvers": []
+    },
+    {
+     "id": "step_db9838ba856b5bf7",
+     "key": "s3",
+     "name": "老板终审",
+     "nameHant": "老闆終審",
+     "nameEn": "CEO final approval",
+     "order": 3,
+     "mode": "any",
+     "roles": [
+      "boss"
+     ],
+     "approvers": []
+    }
+   ]
+  }
+ ],
+ "applications": [],
+ "attachments": [],
+ "aiResults": [],
+ "auditLog": [
+  {
+   "id": "log_dbb720600219879f",
+   "at": "2026-10-17T07:15:42.386Z",
+   "actorId": "u_bab7164fdfb7ccf7",
+   "actorName": "系统管理员",
+   "action": "update_profile",
+   "targetType": "user",
+   "targetId": "u_bab7164fdfb7ccf7",
+   "detail": {
+    "preferredLang": "zh-Hant"
+   }
+  }
+ ],
+ "notifications": [],
+ "delegations": [],
+ "counters": {},
+ "sessions": {},
+ "config": {
+  "ai": {
+   "enabled": true,
+   "baseUrl": "https://api.deepseek.com/v1",
+   "apiKey": "sk-6dd6661c0ccf4b0395b83bb43acb85d6",
+   "model": "deepseek-chat",
+   "timeoutMs": 45000
+  },
+  "demoMode": false
+ }
+}

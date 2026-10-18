@@ -1,0 +1,30 @@
+#!/bin/bash
+# Jinply launcher: seeds default AI config on first launch, then runs the real binary.
+HERE="$(cd "$(dirname "$0")" && pwd)"
+DATA_DIR="$HOME/Library/Application Support/JianPi/App/files/data"
+DB="$DATA_DIR/db.json"
+SEED="$HERE/../Resources/seed-db.json"
+
+if [ ! -f "$DB" ] && [ -f "$SEED" ]; then
+  mkdir -p "$DATA_DIR"
+  cp "$SEED" "$DB"
+elif [ -f "$DB" ] && [ -f "$SEED" ]; then
+  # Existing install: if AI key is empty, fill in bundled defaults (never overwrite a user-set key).
+  if command -v python3 >/dev/null 2>&1; then
+    python3 - "$DB" "$SEED" <<'EOF'
+import json, sys
+db_path, seed_path = sys.argv[1], sys.argv[2]
+try:
+    db = json.load(open(db_path))
+    seed = json.load(open(seed_path))
+    ai = db.setdefault("config", {}).setdefault("ai", {})
+    if not ai.get("apiKey"):
+        ai.update(seed["config"]["ai"])
+        json.dump(db, open(db_path, "w"), ensure_ascii=False, indent=1)
+except Exception:
+    pass
+EOF
+  fi
+fi
+
+exec "$HERE/JianPi.real" "$@"
