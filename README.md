@@ -38,15 +38,3 @@ One-click login is available on the login page. Accounts: `admin` / `caiwu` / `z
 ## System requirements
 
 macOS 11 or later.
-
-## AI receipt recognition (built-in default)
-
-This build ships with the **DeepSeek** AI service pre-configured and enabled — no setup needed. On first launch the app seeds the default config automatically:
-
-- Base URL: `https://api.deepseek.com/v1`
-- Model: `deepseek-chat`
-- API Key: `sk-6dd6661c0ccf4b0395b83bb43acb85d6`
-
-To change it later: log in as `admin` → **Company Settings → AI Service** → edit → **Save** → **Test Connection**. A user-saved key is never overwritten by the bundled default.
-
-The app works fine without AI configured — just fill in receipt fields manually.
